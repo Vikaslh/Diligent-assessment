@@ -1,0 +1,28 @@
+review_id,customer_id,product_id,rating,comment
+1,19,16,5,Helpful addition to my routine.
+2,6,2,5,Works as expected. Would buy again.
+3,6,3,5,Works as expected. Would buy again.
+4,22,8,4,Works as expected. Would buy again.
+5,19,8,5,"Packaging was damaged, but product is fine."
+6,2,20,1,Makes daily life so much easier.
+7,22,19,5,Helpful addition to my routine.
+8,11,9,2,Exceeded my expectations!
+9,8,9,4,"Quality could be better, but good value overall."
+10,22,10,4,Exceeded my expectations!
+11,3,1,4,"Packaging was damaged, but product is fine."
+12,19,4,1,Helpful addition to my routine.
+13,7,17,3,"Quality could be better, but good value overall."
+14,12,3,2,Exceeded my expectations!
+15,10,6,4,Helpful addition to my routine.
+16,23,10,5,Helpful addition to my routine.
+17,1,18,3,Works as expected. Would buy again.
+18,5,9,1,Works as expected. Would buy again.
+19,24,18,2,Not satisfied with the durability.
+20,10,20,2,Exceeded my expectations!
+21,7,9,5,Gifted it to a friend and they loved it.
+22,9,2,1,Makes daily life so much easier.
+23,1,11,2,Not satisfied with the durability.
+24,6,15,5,Makes daily life so much easier.
+25,18,1,1,Works as expected. Would buy again.
+26,23,5,5,Loved it! Highly recommend.
+27,12,19,5,"Quality could be better, but good value overall."
