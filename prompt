@@ -1,0 +1,37 @@
+You are an AI developer assistant. Perform the following tasks step-by-step and generate all required code with comments:
+
+### Step 1: Generate Synthetic E-Commerce Data
+Create 5 synthetic CSV/JSON files representing a small e-commerce system:
+1. customers.csv — (customer_id, name, email, city)
+2. products.csv — (product_id, name, category, price)
+3. orders.csv — (order_id, customer_id, order_date, total_amount)
+4. order_items.csv — (order_item_id, order_id, product_id, quantity)
+5. reviews.csv — (review_id, customer_id, product_id, rating, comment)
+
+→ Generate around 20–30 records in each file with realistic synthetic data (random values, but consistent relationships).
+
+### Step 2: Ingest Data into a SQLite Database
+Write a Python script that:
+- Creates a SQLite database (e.g., `ecom.db`).
+- Creates tables corresponding to the above files.
+- Reads each CSV/JSON file.
+- Inserts all records into their respective tables.
+
+Use libraries: `sqlite3`, `pandas` (optional), and `csv`.
+
+### Step 3: Join and Query Data
+Write another Python script (or SQL file) that:
+- Runs SQL queries joining multiple tables (customers, orders, order_items, products, reviews).
+- Example query: "List each customer's name, their total number of orders, and average product rating."
+- Show meaningful output printed to the console.
+
+### Step 4: GitHub Integration
+Initialize a Git repository:
+- Create a `README.md` explaining the project steps.
+- Add and commit all files (data, scripts, and DB).
+- Push to a GitHub repository.
+
+### Additional Notes
+- The project must run locally using Cursor IDE.
+- Each file should be properly named and commented.
+- Use relative paths for reading/writing files.
