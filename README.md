@@ -17,6 +17,14 @@ This project demonstrates an end-to-end flow for generating synthetic e-commerce
   - Products with multiple reviews and average scores.
 - Run `python3 scripts/query_data.py` to print query results to the console.
 
+## Bonus: Orchestrated Pipeline
+- `scripts/run_pipeline.py` provides a simple CLI to run any stage or the full workflow:
+  - `python3 scripts/run_pipeline.py generate`
+  - `python3 scripts/run_pipeline.py ingest`
+  - `python3 scripts/run_pipeline.py query`
+  - `python3 scripts/run_pipeline.py all`
+- This adds a one-command demo for the complete data lifecycle.
+
 ## Project Structure
 - `data/` – Generated CSV datasets and the SQLite database.
 - `scripts/` – Python utilities for data generation, ingestion, and querying.
